@@ -11,6 +11,11 @@
     background-color: #0CC240;
 }
 
+.bttn button :hover{
+    box-shadow: 2px 2px 4px grey;
+    
+}
+
 .sec1{
     /* background-color: aqua; */
     gap: 25px;
@@ -34,6 +39,14 @@
 .pic img{
     width:100%;
 } */
+
+
+
+.icc:hover{
+    animation:zoomIn ;
+    animation-duration: 2s;
+}
+
 
 @media (max-width:450px) {
     .main{

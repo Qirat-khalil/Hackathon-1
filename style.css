@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.bttn button{
+    width: 160px;
+    padding: 10px;
+    background-color: #0CC240;
+}
+
+.sec1{
+    /* background-color: aqua; */
+    gap: 25px;
+}
+
+.car2{
+    background-color: aqua;
+    width: 70%;
+    border-radius: 8px;
+    /* margin-top: -75px; */
+    /* padding: 8px; */
+}
+.foo{
+    background-color: black;
+}
+
+/* .pic{
+    width: 100px;
+}
+
+.pic img{
+    width:100%;
+} */
+
+@media (max-width:450px) {
+    .main{
+        text-align: center;
+    }
+}
